@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://github.com/itzXian/tsubuyaki',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -55,6 +55,7 @@ export const profileConfig: ProfileConfig = {
   name: 'itzXian',
   bio: "Don't ask to ask, just ask.",
   links: [
+/*
     {
       name: 'AniList',
       icon: 'https://anilist.co/img/icons/icon.svg',       // Visit https://icones.js.org/ for icon codes
@@ -62,6 +63,7 @@ export const profileConfig: ProfileConfig = {
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://anilist.co/user/itzKero',
     },
+*/
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
