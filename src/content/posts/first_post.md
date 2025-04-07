@@ -1,5 +1,5 @@
 ---
-title: first_post.md
+title: 初めてのポスト
 published: 2025-03-24
 description: ''
 image: ''
