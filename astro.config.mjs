@@ -19,6 +19,23 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
+// astro-favicons PWA
+// @ts-check
+import { defineConfig } from "astro/config";
+import favicons from "astro-favicons";
+
+export default defineConfig({
+  integrations: [
+    favicons({
+      input: {
+        favicons: [
+          "public/favicon/favicon.png",
+        ],
+      },
+    }),
+  ],
+});
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://astronaut.github.io",
